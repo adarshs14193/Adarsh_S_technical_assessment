@@ -1,0 +1,61 @@
+# Node.js
+
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+# Python
+
+backend/.venv/
+backend/venv/
+backend/**pycache**/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+
+# Environment files
+
+.env
+.env.*
+frontend/.env
+backend/.env
+
+# Logs
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE
+
+.vscode/
+.idea/
+
+# Generated files
+
+dist/
+build/
+coverage/
+
+# ReactFlow generated exports (if any)
+
+*.tmp
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
