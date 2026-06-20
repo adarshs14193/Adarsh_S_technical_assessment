@@ -70,4 +70,5 @@ def parse_pipeline(pipeline: Pipeline):
         "num_nodes": num_nodes,
         "num_edges": num_edges,
         "is_dag": is_dag(pipeline.nodes, pipeline.edges)
+         
     }
